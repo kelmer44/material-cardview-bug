@@ -26,5 +26,10 @@ class MainActivity : AppCompatActivity() {
             test_layer.isVisible = !test_layer.isVisible
         }
 
+
+        card_overlap_button.setOnClickListener {
+            card_view.preventCornerOverlap = !card_view.preventCornerOverlap
+        }
+
     }
 }
